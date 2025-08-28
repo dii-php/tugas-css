@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>From Login</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+            <p>
+                <label>Username:</label>
+                <input type="text" name="username" placeholder="username..."/>
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="password..."/>
+            </p>
+            <p>
+            <input type="submit" name="Submit" value="Login"/>
+            </p>
+            <p>
+                <label>Jenis Kelamin :</label>
+                <label><input type="radio" name="jk" value="Laki-laki"/>Laki-laki</label>
+                <label><input type="radio" name="jk" value="Perempuan"/>Perempuan</label>
+            </p>
+            <p>
+                <label>Hobi :</label>
+                <label><input type="checkbox" name="hobi" value="Menonton"/>Membaca</label>
+                <label><input type="checkbox" name="hobi" value="Gaming"/>Menulis</label>
+                <label><input type="checkbox" name="hobi" value="Traveling"/>Traveling</label>
+            </p>
+            <p>
+                <label>Agama :</label>
+                <select name="agama" id="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </p>
+            <p>
+                <label>Tanggal Lahir : </label>
+                <input type="date" name="Tanggal"/>
+            </p>
+            <p>
+                <label>Umur : </label>
+                <input type="number" name="Umur" min="7" max="18"/>
+            </p>
+            <p>
+                <label>Pilih Gambar : </label>
+                <input type="file" name="gambar" id="gambar"/>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
